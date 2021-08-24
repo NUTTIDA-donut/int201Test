@@ -11,9 +11,9 @@ console.log('Num is ' + Num);
 //require code block only when executing multiple statements.
 
 if (num == 5) {
-  console.log(num + ' equal to 5.');
+    console.log(num + ' equal to 5.');
 } else {
-  console.log(num + 'is not equal to 5.');
+    console.log(num + 'is not equal to 5.');
 }
 
 let myNum = 0;
@@ -39,16 +39,15 @@ let myArr = [1, 2, 3];
 console.log(`myArr Length: ${myArr.length}`);
 console.log(`type of myArr is ${typeof myArr}`);
 
-let myObj = [
-  {
-    id: 1,
-    task: 'grading exam'
-  },
-  {
-    id: 2,
-    task: 'class lecture',
-    date: new Date()
-  }
+let myObj = [{
+        id: 1,
+        task: 'grading exam'
+    },
+    {
+        id: 2,
+        task: 'class lecture',
+        date: new Date()
+    }
 ];
 
 console.log(`${JSON.stringify(myObj)}`);
